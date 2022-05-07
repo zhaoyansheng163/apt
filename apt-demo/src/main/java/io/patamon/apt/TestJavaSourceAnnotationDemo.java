@@ -16,7 +16,7 @@ public class TestJavaSourceAnnotationDemo {
     public static void main(String[] args) throws Exception {
         com.sun.tools.javac.Main.main(new String[] {"-proc:only",
                 "-processor", "io.patamon.apt.annotation.TestJavaSource",
-                "/Users/icemimosa/Documents/github/AskMisa/apt/apt-demo/src/main/java/io/patamon/apt/TestJavaSourceAnnotationDemo.java"});
+                "E:\\work\\res\\git\\OpenSource\\github\\zhaoyansheng163\\apt\\apt-demo\\src\\main\\java\\io\\patamon\\apt\\TestJavaSourceAnnotationDemo.java"});
 
         System.out.println(TestJavaSourceGenerate.getTest());
     }

@@ -15,7 +15,7 @@ public class TestAnnotationDemo {
     public static void main(String[] args) throws Exception {
         com.sun.tools.javac.Main.main(new String[] {"-proc:only",
                 "-processor", "io.patamon.apt.processor.TestProcessor",
-                "/Users/icemimosa/Documents/github/AskMisa/apt/apt-demo/src/main/java/io/patamon/apt/TestAnnotationDemo.java"});
+                "E:\\work\\res\\git\\OpenSource\\github\\zhaoyansheng163\\apt\\apt-demo\\src\\main\\java\\io\\patamon\\apt\\TestAnnotationDemo.java"});
     }
 
 }

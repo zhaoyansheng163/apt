@@ -17,8 +17,8 @@ public class TestLombokDemo {
     private String name;
 
     public static void main(String[] args) {
-        // TestLombokDemo d = new TestLombokDemo();
-        // d.setName("aaa");
-        // System.out.println(d.getName());
+         TestLombokDemo d = new TestLombokDemo();
+         d.setName("aaa");
+         System.out.println(d.getName());
     }
 }
